@@ -2,6 +2,7 @@
 
 ## Relevant Folders and/or Files
 -	Folder: Challenge
+-	Diploy Website: **https://goatgirl86.github.io/Belly_Button_Diploy/**
 
 ## Project Overview
 
