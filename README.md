@@ -3,6 +3,7 @@
 ## Relevant Folders and/or Files
 -	Folder: Challenge
 -	Diploy Website: **https://goatgirl86.github.io/Belly_Button_Diploy/**
+   - Note: *The diploy website was created with a separate github repository because this repository also includes the Module activities.  The diploy repository can be found at: https://github.com/goatgirl86/Belly_Button_Diploy.git*
 
 ## Project Overview
 
