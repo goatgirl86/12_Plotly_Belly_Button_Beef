@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<style>
+  .jumbotron{
+      background-image: url("bb_bacteria.jpg");
+      background-size: cover;
+      color: white;
+  }
+
+</style>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 style="font-family: papyrus; background-color: coral;"> Belly Button Biodiversity Dashboard
+        </h1>
+        <h2 style="font-family: AlternateGothic2 BT; font-size: 40px; color: black; background-color: white;"> A Peak at the the Possibilities of Improbable Beef
+        </h2>    
+          </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+        <h2 style="font-family: Segoe Print; font-weight: bold;"> What's This All About?
+        </h2>
+        <p style="font-size: 16px; font-style: italic;"> Rosa is looking to discover and document species of bacteria in the belly button that 
+          can replicate the taste of beef.  If successful, synthetic "belly button beef" may be the new diet fad.This dashboard is only the initial 
+          step in Rosa's efforts to discover the ultimate Improbable Beef substitute. More more research is needed to complete her mission.  </p>
+        <p style="font-family: Arial; color: red"> Use the interactive charts below to explore the dataset</p>
+         </div>
+    <div class="row">
+        <div class="col-md-3">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-4">
+        <h2 style="font-family: Arial; font-weight: bold;"> Top 10
+        </h2>
+        <p style="font-size: 16px; font-style: italic;"> This horizontal bar chart depicts the top ten bacterial species (OTU's) 
+          in belly buttons of test subjects.  To see each test subject's unique "Top 10", change the Test Subject Id No: in the 
+          dropdown menu to the left above "Demographic Info".  </p>
+      </div>
+      <div class="col-md-8">
+        <div id="bubble"></div>
+      </div>
+      <div class="col-md-4">
+        <h2 style="font-family: Arial; font-weight: bold;"> Bacteria Cultures
+        </h2>
+        <p style="font-size: 16px; font-style: italic;"> This bubble chart displays the amount of bacteria cultures per sample. 
+          To see each test subject's unique "Bacteria Cultures", change the Test Subject Id No: in the dropdown menu to the left 
+          above "Demographic Info".   </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div id="gauge"></div>
+      </div>
+      <div class="col-md-4">
+        <h2 style="font-family: Arial; font-weight: bold;"> Washing Frequency
+        </h2>
+        <p style="font-size: 16px; font-style: italic;"> This guage chart displays the weekly washing frequency's value as a measure
+           from 0-10 on the progress bar. To see each test subject's unique "Washing Frequency", change the Test Subject Id No: in
+            the dropdown menu to the left above "Demographic Info".  </p>
+          .  </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+</body>
+
+</html>
