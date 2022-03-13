@@ -25,7 +25,7 @@ The deliverables for this assignment were:
 ## Results
 
 ### Diploy Website
---https://goatgirl86.github.io/Belly_Button_Diploy/--
+**https://goatgirl86.github.io/Belly_Button_Diploy/**
  
  ![image](https://user-images.githubusercontent.com/92705556/158048985-7ff2b990-d4f4-4fe7-84a9-bff84878adf1.png)
 
